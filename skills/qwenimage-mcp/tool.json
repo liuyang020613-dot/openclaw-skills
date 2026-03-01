@@ -1,0 +1,17 @@
+{
+  "type": "function",
+  "function": {
+    "name": "generic_search",
+    "description": "提供开放域的实时搜索能力，返回标题、摘要、URL、发布时间和正文内容",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "搜索问题（长度：>=2 and <=100）"
+        }
+      },
+      "required": ["query"]
+    }
+  }
+}
