@@ -1,0 +1,11 @@
+# 通义搜索 API 配置
+api:
+  type: rest
+  baseUrl: https://cloud-iqs.aliyuncs.com
+  headers:
+    X-API-Key: "44GYIYt55PHWm9PEhiHGhOI2MaIBRhI2OTgwYjA5YQ"
+
+# 旧的 MCP SSE 配置（已弃用）
+# mcpServer:
+#   type: sse
+#   url: https://dashscope.aliyuncs.com/api/v1/mcps/WebSearch/sse
